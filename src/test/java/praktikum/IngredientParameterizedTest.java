@@ -29,7 +29,7 @@ public class IngredientParameterizedTest {
 
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0}")
     public static Object[][] getData() {
         return new Object[][] {
                 {SAUCE},
